@@ -1,0 +1,240 @@
+/* === DASHBOARD SUMMARY === */
+
+.yith-wcaf.yith-wcaf-dashboard-summary .dashboard-content {
+    margin: 0 -15px;
+}
+
+.yith-wcaf.yith-wcaf-dashboard-summary .dashboard-content:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.yith-wcaf.yith-wcaf-dashboard-summary .dashboard-title {
+    margin-bottom: 35px;
+}
+
+.yith-wcaf.yith-wcaf-dashboard-summary .dashboard-title h2,
+.yith-wcaf.yith-wcaf-dashboard-summary .dashboard-title span.view-all {
+    display: inline-block;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+.yith-wcaf.yith-wcaf-dashboard-summary .dashboard-title span.view-all {
+    margin-left: 5px;
+}
+
+.yith-wcaf table {
+    font-size: .85em;
+}
+
+.yith-wcaf table th {
+    padding: 4px 8px;
+    vertical-align: middle;
+}
+
+.yith-wcaf table td.empty-set {
+    text-align: center;
+}
+
+.yith-wcaf.yith-wcaf-dashboard-summary ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.yith-wcaf.yith-wcaf-dashboard-summary .left-column,
+.yith-wcaf.yith-wcaf-dashboard-summary .right-column {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.yith-wcaf.yith-wcaf-dashboard-summary .left-column:not(.full-width) {
+    width: 70%;
+    float: left;
+}
+
+.yith-wcaf.yith-wcaf-dashboard-summary .right-column:not(.full-width) {
+    width: 30%;
+    float: left;
+}
+
+/* === DASHBOARD COMMISSIONS / CLICKS / PAYMENTS === */
+
+.yith-wcaf.yith-wcaf-commissions .filters,
+.yith-wcaf.yith-wcaf-clicks .filters,
+.yith-wcaf.yith-wcaf-payments .filters {
+    margin-bottom: 15px;
+}
+
+.yith-wcaf.yith-wcaf-commissions .filters .filters-row,
+.yith-wcaf.yith-wcaf-clicks .filters .filters-row,
+.yith-wcaf.yith-wcaf-payments .filters .filters-row {
+    margin-bottom: 15px;
+}
+
+.yith-wcaf.yith-wcaf-commissions .filters .filters-row .per-page,
+.yith-wcaf.yith-wcaf-clicks .filters .filters-row .per-page,
+.yith-wcaf.yith-wcaf-payments .filters .filters-row .per-page{
+    float: right;
+}
+
+.yith-wcaf.yith-wcaf-commissions .filters .filters-row .per-page input,
+.yith-wcaf.yith-wcaf-clicks .filters .filters-row .per-page input,
+.yith-wcaf.yith-wcaf-payments .filters .filters-row .per-page input{
+    max-width: 70px;
+    padding: 3px 10px 2px;
+}
+
+.yith-wcaf.yith-wcaf-commissions .filters .button-row a,
+.yith-wcaf.yith-wcaf-clicks .filters .button-row a {
+    margin-left: 10px;
+}
+
+.yith-wcaf.yith-wcaf-commissions .filters .button-row input,
+.yith-wcaf.yith-wcaf-commissions .filters .button-row a,
+.yith-wcaf.yith-wcaf-clicks .filters .button-row input,
+.yith-wcaf.yith-wcaf-clicks .filters .button-row a,
+.yith-wcaf.yith-wcaf-payments .filters .button-row input,
+.yith-wcaf.yith-wcaf-payments .filters .button-row a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.yith-wcaf.yith-wcaf-commissions .product-search {
+    min-width: 50%;
+}
+
+.yith-wcaf.yith-wcaf-commissions .product-search a.select2-choice {
+    border-radius: 0;
+    border-color: #eaeaea;
+}
+
+.yith-wcaf.yith-wcaf-commissions .product-search a.select2-choice:hover {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.yith-wcaf.yith-wcaf-commissions .product-search a.select2-choice .select2-chosen {
+    color: #707070;
+}
+
+.yith-wcaf.yith-wcaf-commissions input.datepicker,
+.yith-wcaf.yith-wcaf-clicks input.datepicker,
+.yith-wcaf.yith-wcaf-payments input.datepicker {
+    max-width: 24%;
+    box-sizing: border-box;
+    padding: 3px 10px 2px;
+    background: #fff;
+}
+
+.yith-wcaf.yith-wcaf-commissions .product-search,
+.yith-wcaf.yith-wcaf-commissions input.datepicker,
+.yith-wcaf.yith-wcaf-clicks input.datepicker,
+.yith-wcaf.yith-wcaf-payments input.datepicker {
+    width: auto;
+    display: inline-block !important;
+    vertical-align: middle;
+    color: #707070;
+}
+
+/* === SET REFERRER FORM === */
+
+.yith-wcaf.yith-wcaf-set-referrer form.referrer-form {
+    border: 1px solid #d3ced2;
+    padding: 20px;
+    margin: 2em 0;
+    text-align: left;
+    border-radius: 5px;
+}
+
+/* === DATEPICKER === */
+
+.yith-wcaf-datepicker.ui-datepicker {
+    background-color: #fff;
+    max-width: 300px;
+    font-size: 0.85em;
+    padding: 10px;
+    border: 1px solid #cdcdcd;
+    margin-top: 5px;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-header {
+    margin-bottom: 10px;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-header a.ui-datepicker-prev {
+    float: left;
+    cursor: pointer;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-header a.ui-datepicker-next {
+    float: right;
+    cursor: pointer;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-header .ui-datepicker-title {
+    text-align: center;
+    font-weight: 700;
+}
+
+.yith-wcaf-datepicker.ui-datepicker table {
+    border: none;
+    border-spacing: 5px;
+}
+
+.yith-wcaf-datepicker.ui-datepicker table td,
+.yith-wcaf-datepicker.ui-datepicker table th {
+    border: none;
+    text-align: right;
+    margin-bottom: 10px !important;
+}
+
+.yith-wcaf-datepicker.ui-datepicker table th {
+    padding: 0 5px;
+}
+
+.yith-wcaf-datepicker.ui-datepicker table td {
+    padding: 0;
+}
+
+.yith-wcaf-datepicker.ui-datepicker table td:not(.ui-datepicker-other-month) {
+    background-color: #f7f7f7;
+    border: 1px solid transparent;
+}
+
+.yith-wcaf-datepicker.ui-datepicker table td:hover,
+.yith-wcaf-datepicker.ui-datepicker table td.ui-datepicker-current-day {
+    border-color: #707070;
+    background-color: #fff;
+}
+
+.yith-wcaf-datepicker.ui-datepicker table td a {
+    padding: 0 5px;
+    display: block;
+    color: #707070;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-buttonpane {
+    padding-top: 10px;
+    border-top: 1px solid #cdcdcd;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-buttonpane:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-buttonpane button {
+    font-size: 0.85em;
+    padding: 10px 15px;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-buttonpane button:first-child {
+    float: left;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-buttonpane button:last-child {
+    float: right;
+}
